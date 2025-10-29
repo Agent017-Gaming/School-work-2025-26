@@ -1,0 +1,10 @@
+td {
+  border: 2px solid black;
+  padding: 1rem;
+  cursor: pointer;
+  width: 4rem;
+}
+
+td.select {
+  background-color: aquamarine;
+}

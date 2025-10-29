@@ -1,0 +1,59 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.clickable-icon {
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 8px;
+}
+
+th,
+td:nth-child(4) {
+  text-align: center;
+}
+
+td {
+  text-align: left;
+}
+
+th:nth-child(1) {
+  width: 20%;
+}
+
+th:nth-child(2) {
+  width: 35%;
+}
+
+th:nth-child(3) {
+  width: 35%;
+}
+
+th:nth-child(4) {
+  width: 10%;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+}
+
+#total {
+  font-size: 1.2em;
+  margin-top: 20px;
+}

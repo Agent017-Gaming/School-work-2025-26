@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Page title</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <p>Valore:<input id="input" type="text" placeholder="Scrivi qualsiasi cosa che vuoi"></p>
+  <table>
+    <tr>
+      <td onclick="select(this)">1</td>
+      <td onclick="select(this)">2</td>
+      <td onclick="select(this)">3</td>
+    </tr>
+    <tr>
+      <td onclick="select(this)">4</td>
+      <td onclick="select(this)">5</td>
+      <td onclick="select(this)">6</td>
+    </tr>
+    <tr>
+      <td onclick="select(this)">7</td>
+      <td onclick="select(this)">8</td>
+      <td onclick="select(this)">9</td>
+    </tr>
+  </table>
+  <button id="buttonLeft" onclick="align('left')">Allinea a sinistra</button>
+  <button id="buttonCenter" onclick="align('center')">Allinea al centro</button>
+  <button id="buttonRight" onclick="align('right')">Allinea a destra</button>
+  <br>
+  <button id="insertValue" onclick="insertValue()">inserisci valore</button>
+  <button id="removeValue" onclick="removeValue()">Rimuovi valore</button>
+  <script src="script.js"></script>
+</body>
+
+</html>

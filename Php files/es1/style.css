@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 40px;
+}
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 24px;
+  margin-top: 40px;
+}
+p {
+  font-size: 18px;
+}
+ol, ul {
+  display: inline-block;
+  text-align: left;
+  font-size: 18px;
+}
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+td {
+  border: 1px solid black;
+  padding: 8px 15px;
+  font-size: 18px;
+}

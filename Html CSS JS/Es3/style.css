@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  background-color: #f3f3f3;
+}
+
+h2 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+input {
+  padding: 5px;
+}
+
+button {
+  padding: 6px 12px;
+  background-color: #2c7be5;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #1a5fc1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #ddd;
+}
+
+tr:hover {
+  background-color: #f0f8ff;
+}
+
+input#filterInput {
+  margin-bottom: 10px;
+  width: 50%;
+  padding: 5px;
+}

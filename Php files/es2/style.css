@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  border-collapse: collapse;
+}
+td {
+  border: 0.125rem solid;
+  text-align: center;
+  padding: 1rem;
+}

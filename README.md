@@ -16,8 +16,9 @@ Now that we finished our test on 29/10/25(I was 1 week late), we started to the 
 So far so we did
 ## PHP
 1. Es1: Just a warmup for on the PHP
-2. Es2: Just a practice to understand how a funtion can write in php
-
+2. Es2: Just a practice to understand how a function can write in php
+3. Es3: A series of Esercizes to understand php with functions in it or without it and its application from future progression/Esercizes
+4. 
 ##
 
 I'll update on the Progress Soon.
